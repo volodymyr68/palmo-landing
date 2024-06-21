@@ -810,3 +810,20 @@ th a {
     font-size: 16px;
     color:  #12100CB2;
 }
+
+#first_star {
+    position: absolute;
+    top: 10px;
+    right: 540px;
+    font-size: 16px;
+    color: #FF8A00;
+}
+
+#second_star{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 5080px;
+    right: 690px;
+    font-size: 16px;
+    color: #FF8A00;
+}
