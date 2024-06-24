@@ -716,7 +716,7 @@ footer {
 
 .footer-category a {
     text-decoration: none;
-    color: black;
+    color:  #12100CB2;
     display: block;
     background-color: #FFFFFF;
 }
@@ -845,12 +845,14 @@ footer {
     width: 16px;
     height: 16px;
     margin-bottom: 10px;
+    margin-left: 5px;
     vertical-align: middle;
 }
 #start-content::after{
     content: url('assets/star.png');
     display: inline-block;
     margin-bottom: 10px;
+    margin-left: 5px;
     width: 16px;
     height: 16px;
     vertical-align: middle;
