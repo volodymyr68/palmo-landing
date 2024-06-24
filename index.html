@@ -8,7 +8,9 @@
 <body>
     <header>
         <div id = "logo">
-            <img src="assets/logo.png" alt="logo">
+            <a href="#">
+                <img src="assets/logo.png" alt="logo">
+            </a>
         </div>
         <div id = "toolbar">
             <a href="#" class="toolbar">Features</a>
@@ -45,9 +47,15 @@
                         </div>
                     </div>
                     <div id="try_logos">
-                        <img src="assets/fox.png" alt="fox">
-                        <img src="assets/cat.png" alt="cat">
-                        <img src="assets/bitbucket.png" alt="bitbucket">
+                        <a href="#">
+                            <img src="assets/fox.png" alt="fox">
+                        </a>
+                        <a href="#">
+                            <img src="assets/cat.png" alt="cat">
+                        </a>
+                        <a href="#">
+                            <img src="assets/bitbucket.png" alt="bitbucket">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -157,19 +165,19 @@
             </div>
             <div id="all_logos">
                 <div id="above-logos">
-                    <img src="assets/gitlab_logo.png" alt="gitlab_logo" >
-                    <img src="assets/freeCodeCamp_logo.png" alt="freeCodeCamp_logo" >
-                    <img src="assets/diwave_logo.png" alt="diwave_logo" >
-                    <img src="assets/amazon_logo.png" alt="amazon_logo" >
-                    <img src="assets/facebook_logo.png" alt="facebook_logo" >
-                    <img src="assets/Uber_logo.png" alt="Uber_logo" >
+                    <a href="#"><img src="assets/gitlab_logo.png" alt="gitlab_logo"></a>
+                    <a href="#"><img src="assets/freeCodeCamp_logo.png" alt="freeCodeCamp_logo"></a>
+                    <a href="#"><img src="assets/diwave_logo.png" alt="diwave_logo"></a>
+                    <a href="#"><img src="assets/amazon_logo.png" alt="amazon_logo"></a>
+                    <a href="#"><img src="assets/facebook_logo.png" alt="facebook_logo"></a>
+                    <a href="#"><img src="assets/Uber_logo.png" alt="Uber_logo"></a>
                 </div>
                 <div id="under-logos">
-                    <img src="assets/openAI_logo.png" alt="openAI_logo" >
-                    <img src="assets/intel_logo.png" alt="intel_logo" >
-                    <img src="assets/theia_logo.png" alt="theia_logo" >
-                    <img src="assets/codeinst_logo.png" alt="codeinst_logo" >
-                    <img src="assets/4geeks_logo.png" alt="4geeks_logo" >
+                    <a href="#"><img src="assets/openAI_logo.png" alt="openAI_logo"></a>
+                    <a href="#"><img src="assets/intel_logo.png" alt="intel_logo"></a>
+                    <a href="#"><img src="assets/theia_logo.png" alt="theia_logo"></a>
+                    <a href="#"><img src="assets/codeinst_logo.png" alt="codeinst_logo"></a>
+                    <a href="#"><img src="assets/4geeks_logo.png" alt="4geeks_logo"></a>
                 </div>
             </div>
         </div>
@@ -258,70 +266,55 @@
     <footer>
         <div id="footer_container">
             <div id="footer-links">
-                <table>
-                    <tr>
-                        <th><a href="#" style="font-weight: bold;">Gitpod</a></th>
-                        <th><a href="#" style="font-weight: bold;">Developer</a></th>
-                        <th><a href="#" style="font-weight: bold;">Company</a></th>
-                        <th><a href="#" style="font-weight: bold;">Legal</a></th>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Home</a></td>
-                        <td><a href="#">Getting started</a></td>
-                        <td><a href="#">About</a></td>
-                        <td><a href="#">Imprint</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Features</a></td>
-                        <td><a href="#">Screencasts</a></td>
-                        <td><a href="#">Careers</a></td>
-                        <td><a href="#">Terms of Service</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Pricing</a></td>
-                        <td><a href="#">Blog</a></td>
-                        <td><a href="#">Contact</a></td>
-                        <td><a href="#">Privacy Policy</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Changelog</a></td>
-                        <td><a href="#">Documentation</a></td>
-                        <td><a href="#">Media Kit</a></td>
-                        <td></td>
-                        </tr>
-                    <tr>
-                        <td><a href="#">Self-Hosted</a></td>
-                        <td><a href="#">Report a bug</a></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Gitpod vs GitHub <br>Codespaces</a></td>
-                        <td><a href="#">Community</a></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Status</a></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+                <ul class="footer-category">
+                    <li class="footer-heading"><a href="#">Gitpod</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Self-Hosted</a></li>
+                    <li><a href="#">Gitpod vs GitHub <br>Codespaces</a></li>
+                    <li><a href="#">Status</a></li>
+                </ul>
+                <ul class="footer-category">
+                    <li class="footer-heading"><a href="#">Developer</a></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Screencasts</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Report a bug</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+                <ul class="footer-category">
+                    <li class="footer-heading"><a href="#">Company</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </ul>
+                <ul class="footer-category">
+                    <li class="footer-heading"><a href="#">Legal</a></li>
+                    <li><a href="#">Imprint</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
             </div>
             <div id="footers_logo">
                 <div>
-                    <img src="assets/copyright.png" alt="copyright">
+                    <a href="#" class="copyright">
+                        <img src="assets/footer-last-logo.png" alt="copyright">
+                        <p>Copyright © 2020 Gitpod</p>
+                    </a>
                 </div>
-                <div id = "logo_img">
-                    <img src="assets/twitter2.png" alt="twitter2">
-                    <img src="assets/cat2.png" alt="cat2">
-                    <img src="assets/cloud.png" alt="cloud">
+                <div id="logo_img">
+                    <a href="#"><img src="assets/twitter2.png" alt="twitter2"></a>
+                    <a href="#"><img src="assets/cat2.png" alt="cat2"></a>
+                    <a href="#"><img src="assets/cloud.png" alt="cloud"></a>
                 </div>
             </div>
         </div>
         <div id="cookies">
-            <div>This website uses cookies to enhance the user experience. Read our <a href="#" id="privacy"> privacy policy </a> for more info.</div>
+            <div>This website uses cookies to enhance the user experience. Read our <a href="#" id="privacy">privacy policy</a> for more info.</div>
             <a href="#" id="cookies-button">Accept Cookies</a>
         </div>
     </footer>
